@@ -91,10 +91,6 @@ body {
   width: 60%;
 }
 
-
-#gallery {
-  /*	min-height: 100vh; */
-}
 .title {
   text-align: center;
   padding-block: 2em;
@@ -102,16 +98,17 @@ body {
 .gallery .nav {
   justify-content: center;
 }
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.nav-pills .nav-link.active {
   color: #fff;
   background-color: #7c7212;
   border-radius: 0;
 }
 
 .nav-pills .nav-link {
+  cursor: pointer;
   color: #000;
 }
+
 .item-column {
   position: relative;
   margin-bottom: 0 !important;
