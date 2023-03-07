@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap");
 
 body {
   max-width: 1920px;
@@ -82,9 +82,9 @@ body {
 }
 
 #about-me p {
-	width: 80%;
-	font-size: 14px;
-  }
+  width: 80%;
+  font-size: 14px;
+}
 
 .about-me__introduction {
   font-family: "Spectral";
