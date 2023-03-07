@@ -5,33 +5,61 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="description" content="Nina Carducci vous propose ses services de photographie! Que cela soit pour un mariage, concert, entreprise ou portrait, Nina saisira les meilleurs moments." />
-
-	<!-- Schema.org meta for Google+ -->
-	<meta itemprop="name" content="" />
-	<meta itemprop="description" content="" />
+	<title>Nina Carduccin photographe professionnelle à Bordeaux</title>
 	
-	<!-- Twitter Card data -->
+	<!-- Twitter  -->
 	<meta name="twitter:card" content="summary_large_image"/>
-	<meta name="twitter:title" content="Nina Carducci, photographe sur Bordeaux">
+	<meta name="twitter:title" content="Nina Carducci, photographe professionnelle à Bordeaux">
 	<meta name="twitter:description" content="Photographe professionnelle basée à Bordeaux et se déplcaçant en Île-de-France. L'artiste, Nina Carducci, propose des shootings, des retouches et des albums photos. Elle intervient notamment dans des concerts, mariages et en entreprises, fait des portraits et s'adapte aux différentes demandes.">
 	<meta name="twitter:image" content="./assets/images/nina.webp">
 
-	<!-- Open Graph data (Facebook) -->
+	<!-- Facebook -->
 	<meta property="og:title" content="Nina Carducci"/>
-	<meta property="og:type" content="Nina Carducci, photographe sur Bordeaux"/>
+	<meta property="og:type" content="Nina Carducci, photographe professionnelle à Bordeaux"/>
 	<meta property="og:description" content="Photographe professionnelle basée à Bordeaux et se déplcaçant en Île-de-France. L'artiste, Nina Carducci, propose des shootings, des retouches et des albums photos. Elle intervient notamment dans des concerts, mariages et en entreprises, fait des portraits et s'adapte aux différentes demandes."/>
 	<meta property="og:author" content="Nina Carducci"/>
 	<meta property="og:image" content="./assets/images/nina.webp"/>
 	
-	<title>Nina Carduccin photographe sur Bordeaux</title>
-
+	<!-- Bootstrap CSS (à minimifier) -->
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
+
+	<!-- Style CSS (à minimifier) -->
 	<link rel="stylesheet" href="./assets/style.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
+
+	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link
-		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-		rel="stylesheet" />
+
+	<!-- Script pour le référencement local basé sur schema.org -->
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "LocalBusiness",
+			"name": "Nina Carducci",
+			"description": "Nina Carducci, photographe professionnelle à Bordeaux",
+			"image": "https://nina-carducci-photographs.netlify.app/assets/images/nina.webp",
+			"telephone": "0556677889",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33200",
+				"addressCountry": "FR"
+			  },
+			  "priceRange": "De 50€ à 400€",
+		}
+	</script>
+
+	<!-- Jquery mis à jour -->
+	<script src="https://code.jquery.com/jquery-3.6.3.min.js"
+		integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous" defer></script>
+
+	<!-- Bootstrap JS  (à minimifier)-->
+	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+	
+	<!-- Fichier JS (à minimifier) -->
+	<script src="./assets/maugallery.js" defer></script>
+	<script src="./assets/scripts.js" defer></script>
 </head>
 
 <body>
@@ -228,10 +256,6 @@
 			</aside>
 		</div>
 	</footer>
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-	<script src="./assets/jquery-3.6.3.min.js"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
 </body>
 
 </html>
